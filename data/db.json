@@ -1,0 +1,74 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Breitling Avenger",
+      "foto": "img/breitling-avenger.webp",
+      "descripcion": "El modelo de 3 manecillas de la colección Avenger también se ha visto mejorado y perfilado, ahora disponible en Tres referencias de 42 mm de diámetro.",
+      "precio": 23500
+    },
+    {
+      "id": 2,
+      "nombre": "Breitling Navitimer",
+      "foto": "img/breitling-navitimer-imited.webp",
+      "descripcion": "Además de los nuevos modelos Navitimer Automatic 41 y Navitimer GMT 41, Breitling también ha presentado el Navitimer B12 Chronograph 41 Cosmonaute Limited Edition.",
+      "precio": 2800
+    },
+    {
+      "id": 3,
+      "nombre": "Rolex Daytona",
+      "foto": "img/rolex-daytona.webp",
+      "descripcion": "Nuevo Cosmograph Daytona, un reloj inédito que conmemora el centenario de la legendaria carrera automovilística.",
+      "precio": 55000
+    },
+    {
+      "id": 4,
+      "nombre": "Omega Bioceramic",
+      "foto": "img/omega-bioceramic.webp",
+      "descripcion": "Omega se han inspirado en el espacio exterior. Por ello, su colección de once relojes lleva los nombres de los cuerpos planetarios.",
+      "precio": 23000
+    },
+    {
+      "id": 5,
+      "nombre": "Omega James Bond",
+      "foto": "img/omega-james-bond.webp",
+      "descripcion": "eamaster Diver 40th Anniversary James Bond Edition James Bond Edition, el primer reloj de la marca suiza dedicado oficialmente al agente secreto al servicio de Su Majestad.",
+      "precio": 18500
+    },
+    {
+      "id": 6,
+      "nombre": "Rolex Perpetual",
+      "foto": "img/rolex-perpetual.webp",
+      "descripcion": "Siguiendo con las novedades de Rolex para 2024, tenemos una deslumbrante versión en platino del Rolex Perpetual 1908.",
+      "precio": 16300
+    },
+    {
+      "id": 7,
+      "nombre": "Patek Philippe Grand Master",
+      "foto": "img/patek-philippe -grandmaster.webp",
+      "descripcion": "Patek Philippe ha presentado un reloj realmente especial, con un movimiento desarrollado recientemente en celebración del 85 cumpleaños de Philippe Stern.",
+      "precio": 223000
+    },
+    {
+      "id": 8,
+      "nombre": "Rolex Submarine",
+      "foto": "img/rolex-submarine.webp",
+      "descripcion": "El Submariner cuenta con una esfera negra con índices en oro de 18 quilates que es un prodigio de legibilidad.",
+      "precio": 13500
+    },
+    {
+      "id": 9,
+      "nombre": "Cartier Santos",
+      "foto": "img/santos-Cartier.webp",
+      "descripcion": "n clásico renovado con manecillas que giran en sentido antihorario desafía las convenciones con una propuesta audaz.",
+      "precio": 17900
+    },
+    {
+      "id": 10,
+      "nombre": "Vacheron Constantin",
+      "foto": "img/vacheron-constantin.webp",
+      "descripcion": "Muestra siempre su pasión por la Alta Relojería y el buen hacer en relojes de coleccionista.",
+      "precio": 85600
+    }
+  ]
+}

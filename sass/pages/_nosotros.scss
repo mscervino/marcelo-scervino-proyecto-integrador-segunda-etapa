@@ -1,0 +1,41 @@
+.quienesomos {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.somos {
+  text-align: center;
+}
+
+.grid-container-somos {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.box {
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

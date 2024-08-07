@@ -1,0 +1,148 @@
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 576px) {
+    flex-direction: column-reverse;
+  }
+}
+
+#menu {
+  display: none;
+
+  &:checked + .nav-bar {
+    display: block;
+  }
+
+  &:checked ~ .search-bar .menu-toggle .menu-toggle__label {
+    background-color: #b4ace3;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+
+.nav-bar {
+  background-color: #b4ace3;
+
+  &__nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+    @media (max-width: 576px) {
+      flex-direction: column;
+    }
+  }
+
+  &__nav-item {
+    text-align: center;
+    background-color: red;
+  }
+
+  &__nav-link {
+    display: block;
+    background-color: #b4ace3;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* SEARCH BAR */
+/* -------------------------------------------------------- */
+
+.search-bar {
+  background-color: #36d9d3;
+  display: flex;
+  justify-content: space-around;
+
+  &__logo-container {
+    width: 18.75rem;
+    height: 3.75rem;
+  }
+
+  &__form-container {
+    padding: 1rem;
+    background-color: #b4ace3;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  &__form-label {
+    background-color: #b4ace3;
+  }
+
+  &__form-search {
+    background-color: white;
+    width: 70%;
+  }
+
+  &__form-submit {
+    background-color: rgb(21, 213, 213);
+    color: black;
+  }
+
+  &__carrito-container {
+    flex: 0 0 3rem; /* shorthand (grow shrink basis */
+    background-color: #e8e8e8;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* MENÚ TOOGLE */
+/* -------------------------------------------------------- */
+
+.menu-toggle {
+  display: none;
+  background-color: red;
+  width: 50px;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+
+  &__label {
+    display: block;
+    background-color: #36d9d3;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__top-bread,
+  &__meat,
+  &__bottom-bread {
+    display: block;
+    background-color: #333;
+    height: 0.2rem;
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  &__top-bread {
+    top: 0.8rem;
+  }
+
+  &__meat {
+    top: 50%;
+    margin-top: -0.1rem;
+  }
+
+  &__bottom-bread {
+    bottom: 0.8rem;
+  }
+
+  @media (max-width: 576px) {
+    display: block;
+  }
+}

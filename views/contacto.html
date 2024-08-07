@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="index.html" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="views/contacto.html" class="nav-bar__nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="search-bar">
+        <div class="search-bar__logo-container">Relojes de Colección</div>
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" class="search-bar__form-submit" value="Buscar" />
+        </form>
+        <div class="search-bar__carrito-container">C</div>
+        <div class="menu-toggle">
+          <label for="menu" class="menu-toggle__label">
+            <span class="menu-toggle__top-bread"></span>
+            <span class="menu-toggle__meat"></span>
+            <span class="menu-toggle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <h1 class="forcon">CONTACTENOS</h1>
+    <header>
+      <div class="grid-container1">
+        <div class="column1">
+          <h2>Dirección</h2>
+          <p>Av. del Libertador 1455</p>
+          <p>Ciudad Autonoma de Buenos Aires</p>
+          <p>Argentina</p>
+        </div>
+        <div class="column1">
+          <h2>Formulario de Contacto</h2>
+          <form class="form-contacto">
+            <label for="name">Nombre y Apellido:</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="column1">
+          <h2>Telefonos</h2>
+          <p>Directo: +54 9 11 40405050</p>
+          <p>Whatsapp: +54 9 11 40709080</p>
+          <p>mail: info@relojesdecoleccion.com</p>
+        </div>
+      </div>
+    </header>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
